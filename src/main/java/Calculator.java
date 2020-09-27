@@ -3,27 +3,27 @@ import java.lang.Math;
 
 public class Calculator{
     public double add(double x, double y){
-        return 0.0;
+        return x+y;
     }
 
     public double subtract(double x, double y){
-        return 0.0;
+        return x-y;
     }
 
     public double multiply(double x, double y){
-        return 0.0;
+        return x*y;
     }
 
     public double divide(double x, double y){
-        return 0.0;
+        return x/y;
     }
 
     public double squareRoot(double x){
-        return 0.0;
+        return Math.sqrt(x);
     }
 
     public double power(double x, int power){
-        return 0.0;
+        return Math.pow(x,power);
     }
 
     public static void main(String args[]){
